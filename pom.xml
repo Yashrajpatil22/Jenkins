@@ -19,10 +19,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.13.2</junit.version>
         <!-- SonarQube properties -->
-        <sonar.organization>your-org</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>Qureshi30_Jenkins</sonar.projectKey>
-        <sonar.projectName>Jenkins Demo</sonar.projectName>
+        <sonar.host.url>http://host.docker.internal:9000</sonar.host.url>
+         <sonar.projectKey>sonar_trial</sonar.projectKey>
+         <sonar.projectName>sonar_trial</sonar.projectName>
         <sonar.language>java</sonar.language>
         <sonar.sources>src/main/java</sonar.sources>
         <sonar.tests>src/test/java</sonar.tests>
